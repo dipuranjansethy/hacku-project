@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <center>
+          <img src="./images/jhpolice-text.png" alt="po" >
+        </center>
+      </header>
+  
+      <ul class="menu_bar">
+        <center>
+          <li>
+            <h2><a class="menu" href="index.html">Home</a></h2>
+          </li>
+          <li>
+            <h2><a class="menu" href="#">Department  </a></h2>
+          </li>
+          <li>
+            <h2><a class="menu" href="#">Citizen's corner</a></h2>
+          </li>
+          <li>
+            <h2><a class="menu" href="rti.html">RTI</a></h2>
+          </li>
+          <li>
+            <h2><a class="menu" href="./contactus.html">Contact Us</a></h2>
+          </li>
+          <li><h2><a class="menu" href="login.html">Login</a></h2></li>
+        </center>
+      </ul>
+    <div class="login-form">
+        <div class="login">
+            <p>MEMBER LOGIN</p>
+        </div>
+        <div class="input-form">
+            <label for="email">email<a href="#">&nbsp;<i class="fa-regular fa-envelope"></i></a></label>
+            <br>
+            <input size="30px" type="email" id="email id" required>
+        </div>
+        <div class="input-form">
+            <label for="password">password<a href="#">&nbsp;<i class="fa-solid fa-unlock"></i></a></label>
+            <br>
+            <input size="30px" type="password" id="password" required>
+        </div>
+        <div class="captcha">
+           <label for="captcha-input"><h3>Enter captcha</h3></label>
+           <div class="preview"></div>
+           <div class="captcha-form">
+            <input size="15px" type="text" id="captcha-form" placeholder="Enter captcha here" required>
+            <button class="refresh"><i class="fa-solid fa-retweet"></i></button>
+           </div>
+        </div>
+        <div class="loginb">
+           <button>LOGIN</button>
+        </div>
+        <div class="no-acc">
+            <p>don"t have an account?<a href="#" style="color: aqua">register</a></p>
+        </div>
+    </div>
+</body>
+    <footer>
+    <p>&copy; 2023 Crime Records. All rights reserved.</p>
+</footer>
+    
+</html>

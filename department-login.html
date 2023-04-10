@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Department Login</title>
+    <link rel="stylesheet" href="./css/dep.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <form action="./indexd.php" method="post">
+    <div class="login-form">
+        <div class="login">
+            <p>DEPARTMENT LOGIN</p>
+        </div>
+        <div class="input-form">
+            <label for="email">USER-ID<a href="#">&nbsp;<i style="color: aliceblue;" class="fa-solid fa-id-card-clip"></i></a></label>
+            <br>
+            <input size="30px" type="text" id="email id" name="userid" required>
+        </div>
+        <div class="input-form">
+            <label for="password">password<a href="#">&nbsp;<i style="color: aliceblue;" class="fa-solid fa-unlock"></i></a></label>
+            <br>
+            <input size="30px" type="password" id="password" name="password" required>
+        </div>
+        <!-- <div class="captcha">
+           <label for="captcha-input"><h3>Enter captcha</h3></label>
+           <div class="preview"></div>
+           <div class="captcha-form">
+            <input size="15px" type="text" id="captcha-form" placeholder="Enter captcha here" required>
+            <button class="refresh"><i class="fa-solid fa-retweet"></i></button>
+           </div>
+        </div> -->
+        <div class="loginb">
+            <button type="submit">LOGIN</button>
+         </div>
+        </form>
+        
+    </div>
+    <div class="back">
+        <a href="./login.html"><button class="back"><i class="fa-solid fa-arrow-left"> BACK</i></button></a>
+    </div>
+</body>
+</html>
